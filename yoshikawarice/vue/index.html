@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>yoshikawa rice</title>
+    <meta name="description" content="精米したての吉川米の購入ができます。">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <div id="app">
+        <button :disabled="value">購入できます</button>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                msg: "吉川米の購入ができません！！！！！！",
+                value: true
+            }
+        })
+    </script>
+</body>
+</html>
